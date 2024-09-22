@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="./img/logo.png" alt="logo fp"> <!-- Logo da página -->
+        <nav>
+            <ul>
+                <li>Home</li> <!-- Link para a página inicial -->
+                <li>Carros</li> <!-- Link para a seção de carros -->
+                <li>Fale conosco</li> <!-- Link para a seção de contato -->
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container"> <!-- Seção principal para exibição dos carros -->
+        <div class="list">
+            <div class="item active"> <!-- Item ativo (visível) -->
+                <div class="car-img">
+                    <img src="./img/1.png" alt="imagem carro"> <!-- Imagem do carro -->
+                </div>
+                <div class="content">
+                    <p class="car-information">Esportivo</p> <!-- Tipo de carro -->
+                    <h2>911 Turbo</h2> <!-- Nome do carro -->
+                    <p class="description"> <!-- Descrição do carro -->
+                        A Porsche lançou o primeiro 911 Turbo em 1975 com um motor turbo de 3.0 litros, um kit de
+                        carroceria larga e uma asa fixa na traseira para dar a ele uma aparência mais parecida
+                        com a de um carro de corrida. Em homenagem ao primeiro 911 Turbo montado.
+                    </p>
+                    <button class="information">Saiba mais</button> <!-- Botão para mais informações -->
+                </div>
+            </div>
+
+            <div class="item"> <!-- Outro item da lista -->
+                <div class="car-img">
+                    <img src="./img/2.png" alt="imagem carro"> <!-- Imagem do carro -->
+                </div>
+                <div class="content">
+                    <p class="car-information">Unico Dono</p>
+                    <h2>Ferrari</h2>
+                    <p class="description"> <!-- Descrição do carro -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, veniam pariatur mollitia
+                        minima veritatis quod eius amet, natus fugiat doloremque explicabo, voluptatum unde ullam magni
+                        delectus non iure voluptas vitae?
+                    </p>
+                    <button class="information">Saiba mais</button>
+                </div>
+            </div>
+
+            <div class="item"> <!-- Outro item da lista -->
+                <div class="car-img">
+                    <img src="./img/3.png" alt="imagem carro"> <!-- Imagem do carro -->
+                </div>
+                <div class="content">
+                    <p class="car-information">Unico Dono</p>
+                    <h2>Lamborghini</h2>
+                    <p class="description"> <!-- Descrição do carro -->
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, veniam pariatur mollitia
+                        minima veritatis quod eius amet, natus fugiat doloremque explicabo, voluptatum unde ullam magni
+                        delectus non iure voluptas vitae?
+                    </p>
+                    <button class="information">Saiba mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows"> <!-- Controles de navegação -->
+            <button id="prev"><img src="./img/arrow.png" alt="seta"></button> <!-- Botão de anterior -->
+            <button id="next"><img src="./img/arrow.png" alt="seta"></button> <!-- Botão de próximo -->
+        </div>
+
+        <div class="indicator"> <!-- Indicador de item ativo -->
+            <div class="number">01</div> <!-- Número do item ativo -->
+            <ul>
+                <li class="active"></li> <!-- Item ativo -->
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script> <!-- Inclusão do script JavaScript -->
+</body>
+
+</html>
