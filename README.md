@@ -22,4 +22,5 @@ Contribuições são bem-vindas! Abra um issue ou um pull request.
 ## Licença
 Este projeto está licenciado sob a licença MIT.
 
-**Link para o repositório:** https://github.com/NetoPython/carrossel-de-carros
+**Link para o repositório:** 
+https://github.com/NetoPython/site-carros
